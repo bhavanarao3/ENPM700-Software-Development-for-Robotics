@@ -18,14 +18,14 @@ on:
   # Triggered whenever push to main 
   push:
     branches: 
-      - main
-      - pairA_design_part1
+      [main,
+      pairA_design_part1]
 
   # Triggered whenever a pull request is created on main
   pull_request:
     branches: 
-      - main
-      - pairA_design_part1
+      [main,
+      pairA_design_part1]
     types: [opened]
 
   # Allow manual trigger
@@ -58,7 +58,7 @@ jobs:
       - name: Upload coverage result to CodeCov
         uses: codecov/codecov-action@v3
         with:
-          token: ${{ secrets.CODECOV_TOKEN }} # not required for public repos
+          token: # not required for public repos
           files: build/test_coverage.info
           fail_ci_if_error: true # optional (default = false)
           verbose: true # optional (default = false)      

@@ -1,7 +1,7 @@
 # cpp-boilerplate-v2
 
 # C++ Boilerplate v2 Badges
-![CICD Workflow status](https://github.com/bhavanarao3/ENPM700-Software-Development-for-Robotics/actions/workflows/run-unit-test-and-upload-codecov.yml/badge.svg) [![codecov](https://codecov.io/gh/bhavanarao3/ENPM700-Software-Development-for-Robotics/graph/badge.svg)](https://codecov.io/gh/bhavanarao3/ENPM700-Software-Development-for-Robotics) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+![CICD Workflow status](https://github.com/bhavanarao3/ENPM700-Software-Development-for-Robotics/actions/workflows/run-unit-test-and-upload-codecov.yml/badge.svg) [![codecov](https://codecov.io/gh/bhavanarao3/ENPM700-Software-Development-for-Robotics/graph/badge.svg?token=2RARS2XDSI)](https://codecov.io/gh/bhavanarao3/ENPM700-Software-Development-for-Robotics) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ## Author
 ### Part1

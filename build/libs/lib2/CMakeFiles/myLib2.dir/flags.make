@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/bhavana/week5/cpp-boilerplate-v2/libs/lib2/.
 
-CXX_FLAGS = -std=gnu++14
+CXX_FLAGS =  -g --coverage -fprofile-abs-path -g -std=gnu++14
 

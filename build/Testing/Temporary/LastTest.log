@@ -1,10 +1,10 @@
-Start testing: Oct 04 19:38 EDT
+Start testing: Oct 05 00:07 EDT
 ----------------------------------------------------------
 1/7 Testing: dummy_test.this_should_pass
 1/7 Test: dummy_test.this_should_pass
 Command: "/home/bhavana/week5/cpp-boilerplate-v2/build/test/cpp-test" "--gtest_filter=dummy_test.this_should_pass" "--gtest_also_run_disabled_tests"
 Directory: /home/bhavana/week5/cpp-boilerplate-v2/build/test
-"dummy_test.this_should_pass" start time: Oct 04 19:38 EDT
+"dummy_test.this_should_pass" start time: Oct 05 00:07 EDT
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = dummy_test.this_should_pass
@@ -19,10 +19,10 @@ Note: Google Test filter = dummy_test.this_should_pass
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"dummy_test.this_should_pass" end time: Oct 04 19:38 EDT
+"dummy_test.this_should_pass" end time: Oct 05 00:07 EDT
 "dummy_test.this_should_pass" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -30,7 +30,7 @@ Test Passed.
 2/7 Test: dummy_test.this_should_pass_too
 Command: "/home/bhavana/week5/cpp-boilerplate-v2/build/test/cpp-test" "--gtest_filter=dummy_test.this_should_pass_too" "--gtest_also_run_disabled_tests"
 Directory: /home/bhavana/week5/cpp-boilerplate-v2/build/test
-"dummy_test.this_should_pass_too" start time: Oct 04 19:38 EDT
+"dummy_test.this_should_pass_too" start time: Oct 05 00:07 EDT
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = dummy_test.this_should_pass_too
@@ -48,7 +48,7 @@ Note: Google Test filter = dummy_test.this_should_pass_too
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"dummy_test.this_should_pass_too" end time: Oct 04 19:38 EDT
+"dummy_test.this_should_pass_too" end time: Oct 05 00:07 EDT
 "dummy_test.this_should_pass_too" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -56,7 +56,7 @@ Test Passed.
 3/7 Test: dummy_test.this_will_fail
 Command: "/home/bhavana/week5/cpp-boilerplate-v2/build/test/cpp-test" "--gtest_filter=dummy_test.this_will_fail" "--gtest_also_run_disabled_tests"
 Directory: /home/bhavana/week5/cpp-boilerplate-v2/build/test
-"dummy_test.this_will_fail" start time: Oct 04 19:38 EDT
+"dummy_test.this_will_fail" start time: Oct 05 00:07 EDT
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = dummy_test.this_will_fail
@@ -84,7 +84,7 @@ Expected equality of these values:
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Failed.
-"dummy_test.this_will_fail" end time: Oct 04 19:38 EDT
+"dummy_test.this_will_fail" end time: Oct 05 00:07 EDT
 "dummy_test.this_will_fail" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -92,7 +92,7 @@ Test Failed.
 4/7 Test: PIDControllerTest.ConstructorInitializesCorrectly
 Command: "/home/bhavana/week5/cpp-boilerplate-v2/build/test/pid-test" "--gtest_filter=PIDControllerTest.ConstructorInitializesCorrectly" "--gtest_also_run_disabled_tests"
 Directory: /home/bhavana/week5/cpp-boilerplate-v2/build/test
-"PIDControllerTest.ConstructorInitializesCorrectly" start time: Oct 04 19:38 EDT
+"PIDControllerTest.ConstructorInitializesCorrectly" start time: Oct 05 00:07 EDT
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = PIDControllerTest.ConstructorInitializesCorrectly
@@ -110,7 +110,7 @@ Note: Google Test filter = PIDControllerTest.ConstructorInitializesCorrectly
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"PIDControllerTest.ConstructorInitializesCorrectly" end time: Oct 04 19:38 EDT
+"PIDControllerTest.ConstructorInitializesCorrectly" end time: Oct 05 00:07 EDT
 "PIDControllerTest.ConstructorInitializesCorrectly" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -118,7 +118,7 @@ Test Passed.
 5/7 Test: PIDControllerTest.ComputeReturnsCorrectValue
 Command: "/home/bhavana/week5/cpp-boilerplate-v2/build/test/pid-test" "--gtest_filter=PIDControllerTest.ComputeReturnsCorrectValue" "--gtest_also_run_disabled_tests"
 Directory: /home/bhavana/week5/cpp-boilerplate-v2/build/test
-"PIDControllerTest.ComputeReturnsCorrectValue" start time: Oct 04 19:38 EDT
+"PIDControllerTest.ComputeReturnsCorrectValue" start time: Oct 05 00:07 EDT
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = PIDControllerTest.ComputeReturnsCorrectValue
@@ -133,10 +133,10 @@ Note: Google Test filter = PIDControllerTest.ComputeReturnsCorrectValue
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"PIDControllerTest.ComputeReturnsCorrectValue" end time: Oct 04 19:38 EDT
+"PIDControllerTest.ComputeReturnsCorrectValue" end time: Oct 05 00:07 EDT
 "PIDControllerTest.ComputeReturnsCorrectValue" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -144,7 +144,7 @@ Test Passed.
 6/7 Test: PIDControllerTest.ComputeWithDifferentInputs
 Command: "/home/bhavana/week5/cpp-boilerplate-v2/build/test/pid-test" "--gtest_filter=PIDControllerTest.ComputeWithDifferentInputs" "--gtest_also_run_disabled_tests"
 Directory: /home/bhavana/week5/cpp-boilerplate-v2/build/test
-"PIDControllerTest.ComputeWithDifferentInputs" start time: Oct 04 19:38 EDT
+"PIDControllerTest.ComputeWithDifferentInputs" start time: Oct 05 00:07 EDT
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = PIDControllerTest.ComputeWithDifferentInputs
@@ -172,7 +172,7 @@ output evaluates to 0,
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Failed.
-"PIDControllerTest.ComputeWithDifferentInputs" end time: Oct 04 19:38 EDT
+"PIDControllerTest.ComputeWithDifferentInputs" end time: Oct 05 00:07 EDT
 "PIDControllerTest.ComputeWithDifferentInputs" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -180,7 +180,7 @@ Test Failed.
 7/7 Test: PIDControllerTest.ComputeFailsForIncorrectExpectation
 Command: "/home/bhavana/week5/cpp-boilerplate-v2/build/test/pid-test" "--gtest_filter=PIDControllerTest.ComputeFailsForIncorrectExpectation" "--gtest_also_run_disabled_tests"
 Directory: /home/bhavana/week5/cpp-boilerplate-v2/build/test
-"PIDControllerTest.ComputeFailsForIncorrectExpectation" start time: Oct 04 19:38 EDT
+"PIDControllerTest.ComputeFailsForIncorrectExpectation" start time: Oct 05 00:07 EDT
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = PIDControllerTest.ComputeFailsForIncorrectExpectation
@@ -208,8 +208,8 @@ output evaluates to 0,
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Failed.
-"PIDControllerTest.ComputeFailsForIncorrectExpectation" end time: Oct 04 19:38 EDT
+"PIDControllerTest.ComputeFailsForIncorrectExpectation" end time: Oct 05 00:07 EDT
 "PIDControllerTest.ComputeFailsForIncorrectExpectation" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Oct 04 19:38 EDT
+End testing: Oct 05 00:07 EDT

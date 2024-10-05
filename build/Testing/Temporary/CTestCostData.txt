@@ -1,8 +1,8 @@
-dummy_test.this_should_pass 1 0.0117027
-dummy_test.this_should_pass_too 1 0.00783724
+dummy_test.this_should_pass 5 0.00346451
+dummy_test.this_should_pass_too 5 0.00191626
 dummy_test.this_will_fail 0 0
-PIDControllerTest.ConstructorInitializesCorrectly 1 0.0125232
-PIDControllerTest.ComputeReturnsCorrectValue 1 0.010912
+PIDControllerTest.ConstructorInitializesCorrectly 5 0.00287375
+PIDControllerTest.ComputeReturnsCorrectValue 5 0.00321407
 PIDControllerTest.ComputeWithDifferentInputs 0 0
 PIDControllerTest.ComputeFailsForIncorrectExpectation 0 0
 ---

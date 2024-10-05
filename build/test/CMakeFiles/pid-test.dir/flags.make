@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/bhavana/week5/cpp-boilerplate-v2/include -I/home/bhavana/week5/cpp-boilerplate-v2/libs/pid/. -isystem /home/bhavana/week5/cpp-boilerplate-v2/build/_deps/googletest-src/googletest/include -isystem /home/bhavana/week5/cpp-boilerplate-v2/build/_deps/googletest-src/googletest
 
-CXX_FLAGS = -std=gnu++14
+CXX_FLAGS =  -g --coverage -fprofile-abs-path -g -std=gnu++14
 

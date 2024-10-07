@@ -3,10 +3,10 @@ name: Run Unit Test and Upload Coverage Report
 on:
   push:
     branches: 
-      ["pairA_design_part1"]
+      ["main", "pairA_design_part1"]
   pull_request:
     branches: 
-      ["pairA_design_part1"]
+      ["main", "pairA_design_part1"]
       types: [opened]
   workflow_dispatch:
 
@@ -27,12 +27,14 @@ jobs:
         run: |
           cmake -D WANT_COVERAGE=ON -D CMAKE_BUILD_TYPE=Debug -S ./ -B build/
           cmake --build build/ --clean-first --target all test_coverage
+          cat build/test_coverage.info
 
 
       - name: Upload coverage result to CodeCov
-        uses: codecov/codecov-action@v3
+        uses: codecov/codecov-action@v4
         with:
           token: ${{ secrets.CODECOV_TOKEN }} # Only for private repos
           files: ${{github.workspace}}/build/test_coverage.info
           fail_ci_if_error: true
           verbose: true
+          disable_search: true # optional (default = false)

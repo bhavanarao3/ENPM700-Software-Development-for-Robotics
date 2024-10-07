@@ -3,11 +3,11 @@ name: Run Unit Test and Upload Coverage Report
 on:
   push:
     branches: 
-      ["main", "pairA_design_part1"]
+      [main, pairA_design_part1]
   pull_request:
     branches: 
-      ["main", "pairA_design_part1"]
-      types: [opened]
+      [main, pairA_design_part1]
+    types: [opened]
   workflow_dispatch:
 
 jobs:
@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-22.04
     
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       
       - name: Install build packages
         run: |
@@ -27,14 +27,16 @@ jobs:
         run: |
           cmake -D WANT_COVERAGE=ON -D CMAKE_BUILD_TYPE=Debug -S ./ -B build/
           cmake --build build/ --clean-first --target all test_coverage
-          cat build/test_coverage.info
 
+      - name: Run tests and generate coverage report
+        run: |
+          ./build/test_executable # Replace with your test executable
+          lcov --capture --directory . --output-file build/test_coverage.info # Ensure this matches your setup
 
       - name: Upload coverage result to CodeCov
         uses: codecov/codecov-action@v4
         with:
-          token: ${{ secrets.CODECOV_TOKEN }} # Only for private repos
+          token: 44aa9e17-e97d-4649-8835-f18c994edbaf # Only for private repos
           files: ${{github.workspace}}/build/test_coverage.info
           fail_ci_if_error: true
           verbose: true
-          disable_search: true # optional (default = false)

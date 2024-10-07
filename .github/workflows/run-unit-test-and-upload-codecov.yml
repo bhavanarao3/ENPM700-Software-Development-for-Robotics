@@ -36,7 +36,8 @@ jobs:
       - name: Upload coverage result to CodeCov
         uses: codecov/codecov-action@v4
         with:
-          token: 44aa9e17-e97d-4649-8835-f18c994edbaf # Only for private repos
+          token: ${{ secrets.CODECOV_TOKEN }}
           files: ${{github.workspace}}/build/test_coverage.info
+          branch: pairA_design_part1 # Specify the branch explicitly
           fail_ci_if_error: true
           verbose: true
